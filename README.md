@@ -7,6 +7,7 @@ This code is the implementation of the paper "Fair Influence Maximization in Cit
 To execute the preprocess successfully, please follow these steps:  Required Files Ensure the following three files are placed in the working directory before running the notebook:
 
 citation-network2.txt, AMiner-Author.txt, fairness_values.pkl
+
 Execution Steps : First Run "Data Preprocessing.ipynb" Open data_preprocessing.ipynb using Jupyter Notebook, VS Code, or Google Colab.
 Execute each code block sequentially from top to bottom without skipping any cells.
 This will generate a file named: paper_author_vectors.pkl which is required as input to learn the node embeddings.
