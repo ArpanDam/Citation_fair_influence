@@ -1,1 +1,18 @@
 # Citation_fair_influence
+
+This code is the implementation of the paper "Fair Influence Maximization in Citation Networks: A Multi-Task Learning Approach"
+
+(1) The First part of the code is the preprocessing : First, download the dataset from the following Kaggle link and unzip it — you will find both the required .txt files (citation-network2.txt and AMiner-Author.txt) inside: https://www.kaggle.com/datasets/kmader/aminer-academic-citation-dataset?resource=download.
+
+To execute the preprocess successfully, please follow these steps:  Required Files Ensure the following three files are placed in the working directory before running the notebook:
+
+citation-network2.txt, AMiner-Author.txt, fairness_values.pkl
+Execution Steps : First Run Data Preprocessing Open data_preprocessing.ipynb using Jupyter Notebook, VS Code, or Google Colab.
+Execute each code block sequentially from top to bottom without skipping any cells.
+This will generate a file named: paper_author_vectors.pkl which is required as input to learn the node embeddings.
+
+(2) The second part of the code is the Multi task leanring model. 
+Run MTL_model.ipynb to generate node embeddigns and also the 2 TSNE plots
+
+(3) The third part of the code finds top k fair influencer. We have kept a dummy bipartite graph with probability of influence computed from the embedding genertaed by the Multi task model. 
+Run this code to generte top k fair influencer along with there influece spread.
