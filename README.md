@@ -1,6 +1,6 @@
 # Citation_fair_influence
 
-This code is the implementation of the paper "Fair Influence Maximization in Citation Networks: A Multi-Task Learning Approach"
+This code is the implementation of the paper "On Recommending Fair Influential Scholars with Geographically Diverse Impact"
 
 (1) The First part of the code is the preprocessing : First, download the dataset from the following Kaggle link and unzip it — you will find both the required .txt files (citation-network2.txt and AMiner-Author.txt) inside: https://www.kaggle.com/datasets/kmader/aminer-academic-citation-dataset?resource=download.
 
